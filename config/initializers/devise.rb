@@ -105,7 +105,7 @@ Devise.setup do |config|
   # config.pepper = '6a2d0e0bd7a7d6114fc7e532282d0f524d8e027ea1a3b8435b44ddd81801c81de33db22c9c60cde740c2853387d5198f789bd41525192e288866ce9a6d13e67e'
 
   # Send a notification email when the user's password is changed
-  #  config.send_password_change_notification = false
+    config.send_password_change_notification = true
 
   # ==> Configuration for :confirmable
   # A period that the user is allowed to access the website even without
@@ -144,7 +144,7 @@ Devise.setup do |config|
 
   # Options to be passed to the created cookie. For instance, you can set
   # secure: true in order to force SSL only cookies.
-  # config.rememberable_options = {}
+   config.rememberable_options = {}
 
   # ==> Configuration for :validatable
   # Range for password length.
@@ -184,7 +184,7 @@ Devise.setup do |config|
    config.unlock_in = 1.hour
 
   # Warn on the last attempt before the account is locked.
-  # config.last_attempt_warning = true
+   config.last_attempt_warning = true
 
   # ==> Configuration for :recoverable
   #
